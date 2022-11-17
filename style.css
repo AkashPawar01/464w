@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    height: 11vw;
+    width: 100%;
+    background-color: #F6F6EE;
+    padding-top: 10px;
+}
+
+#nav h1 {
+    font-family: "gilroy";
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#nav h1 span {
+    font-family: "gilroy";
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#nav #links {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+#nav #links a {
+    font-family: "gilroy";
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+#nav #links a:hover {
+    font-weight: 700;
+}
+
+#main {
+
+    height: 100%;
+    width: 100%;
+    background-color: #F6F6EE;
+
+}
+
+#main #text {
+    height: 15vw;
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#main #text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+#main #text p {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 16px 0;
+    margin-bottom: 21px;
+}
+
+#main #text button {
+    padding: 10px 20px;
+    background-color: #000;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+#main #text button:hover {
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #000;
+}
+
+#main #imgmain {
+
+    width: 100%;
+}
+
+#main #imgmain img {
+    width: 100%;
+}
+
+#bttm {
+    display: flex;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+#bttm #bleft {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-right: 3px solid #000;
+    padding-right: 30px;
+    text-align: right;
+    background-color: #F6F6EE;
+}
+
+#bttm #bleft #line {
+    width: 25px;
+    padding: 2px;
+    background-color: black;
+    margin-left: 95.5%;
+    border-radius: 10px;
+}
+
+#bttm #bleft p {
+    margin-top: 10px;
+    width: 60%;
+    margin-left: 40%;
+}
+
+#bttm #bright {
+    width: 50%;
+    display: flex;
+    gap: 15px;
+    padding-left: 30px;
+    text-align: left;
+    background-color: #F6F6EE;
+}
+
+#bright p {
+    margin-top: 10px;
+    width: 59%;
+}
